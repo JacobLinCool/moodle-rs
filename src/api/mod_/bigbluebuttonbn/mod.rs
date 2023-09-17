@@ -1,0 +1,10 @@
+pub mod r#can_join;
+pub mod r#completion_validate;
+pub mod r#end_meeting;
+pub mod r#get_bigbluebuttonbns_by_courses;
+pub mod r#get_join_url;
+pub mod r#get_recordings;
+pub mod r#get_recordings_to_import;
+pub mod r#meeting_info;
+pub mod r#update_recording;
+pub mod r#view_bigbluebuttonbn;

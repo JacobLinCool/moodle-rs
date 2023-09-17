@@ -1,0 +1,10 @@
+pub mod r#edit_page;
+pub mod r#get_page_contents;
+pub mod r#get_page_for_editing;
+pub mod r#get_subwiki_files;
+pub mod r#get_subwiki_pages;
+pub mod r#get_subwikis;
+pub mod r#get_wikis_by_courses;
+pub mod r#new_page;
+pub mod r#view_page;
+pub mod r#view_wiki;

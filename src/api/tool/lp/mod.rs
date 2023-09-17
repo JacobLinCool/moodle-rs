@@ -1,0 +1,17 @@
+pub mod r#data_for_competencies_manage_page;
+pub mod r#data_for_competency_frameworks_manage_page;
+pub mod r#data_for_competency_summary;
+pub mod r#data_for_course_competencies_page;
+pub mod r#data_for_plan_page;
+pub mod r#data_for_plans_page;
+pub mod r#data_for_related_competencies_section;
+pub mod r#data_for_template_competencies_page;
+pub mod r#data_for_templates_manage_page;
+pub mod r#data_for_user_competency_summary;
+pub mod r#data_for_user_competency_summary_in_course;
+pub mod r#data_for_user_competency_summary_in_plan;
+pub mod r#data_for_user_evidence_list_page;
+pub mod r#data_for_user_evidence_page;
+pub mod r#list_courses_using_competency;
+pub mod r#search_cohorts;
+pub mod r#search_users;

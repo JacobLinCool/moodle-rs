@@ -1,0 +1,14 @@
+pub mod r#get_analysis;
+pub mod r#get_current_completed_tmp;
+pub mod r#get_feedback_access_information;
+pub mod r#get_feedbacks_by_courses;
+pub mod r#get_finished_responses;
+pub mod r#get_items;
+pub mod r#get_last_completed;
+pub mod r#get_non_respondents;
+pub mod r#get_page_items;
+pub mod r#get_responses_analysis;
+pub mod r#get_unfinished_responses;
+pub mod r#launch_feedback;
+pub mod r#process_page;
+pub mod r#view_feedback;

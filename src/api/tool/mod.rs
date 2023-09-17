@@ -1,0 +1,10 @@
+pub mod r#analytics;
+pub mod r#behat;
+pub mod r#dataprivacy;
+pub mod r#lp;
+pub mod r#mobile;
+pub mod r#moodlenet;
+pub mod r#policy;
+pub mod r#templatelibrary;
+pub mod r#usertours;
+pub mod r#xmldb;

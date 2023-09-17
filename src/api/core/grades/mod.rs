@@ -1,0 +1,13 @@
+pub mod r#create_gradecategories;
+pub mod r#create_gradecategory;
+pub mod r#get_enrolled_users_for_search_widget;
+pub mod r#get_enrolled_users_for_selector;
+pub mod r#get_feedback;
+pub mod r#get_gradeitems;
+pub mod r#get_groups_for_search_widget;
+pub mod r#get_groups_for_selector;
+pub mod r#grader_gradingpanel_point_fetch;
+pub mod r#grader_gradingpanel_point_store;
+pub mod r#grader_gradingpanel_scale_fetch;
+pub mod r#grader_gradingpanel_scale_store;
+pub mod r#update_grades;

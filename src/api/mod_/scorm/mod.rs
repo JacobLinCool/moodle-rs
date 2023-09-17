@@ -1,0 +1,9 @@
+pub mod r#get_scorm_access_information;
+pub mod r#get_scorm_attempt_count;
+pub mod r#get_scorm_sco_tracks;
+pub mod r#get_scorm_scoes;
+pub mod r#get_scorm_user_data;
+pub mod r#get_scorms_by_courses;
+pub mod r#insert_scorm_tracks;
+pub mod r#launch_sco;
+pub mod r#view_scorm;

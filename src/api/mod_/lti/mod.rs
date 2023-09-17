@@ -1,0 +1,14 @@
+pub mod r#create_tool_proxy;
+pub mod r#create_tool_type;
+pub mod r#delete_tool_proxy;
+pub mod r#delete_tool_type;
+pub mod r#get_ltis_by_courses;
+pub mod r#get_tool_launch_data;
+pub mod r#get_tool_proxies;
+pub mod r#get_tool_proxy_registration_request;
+pub mod r#get_tool_types;
+pub mod r#get_tool_types_and_proxies;
+pub mod r#get_tool_types_and_proxies_count;
+pub mod r#is_cartridge;
+pub mod r#update_tool_type;
+pub mod r#view_lti;

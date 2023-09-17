@@ -1,0 +1,15 @@
+pub mod r#auth;
+pub mod r#block;
+pub mod r#core;
+pub mod r#enrol;
+pub mod r#gradereport;
+pub mod r#gradingform;
+pub mod r#media;
+pub mod r#message;
+pub mod r#mod_;
+pub mod r#paygw;
+pub mod r#qbank;
+pub mod r#quizaccess;
+pub mod r#report;
+pub mod r#tiny;
+pub mod r#tool;
