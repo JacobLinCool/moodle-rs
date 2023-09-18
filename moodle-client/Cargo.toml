@@ -1,0 +1,25 @@
+[package]
+name = "moodle_client"
+description = "Moodle Webservice Client in Rust."
+version = "0.1.0"
+keywords = ["moodle"]
+readme = "README.md"
+license = "AGPL-3.0"
+build = "build.rs"
+edition = "2021"
+homepage = "https://github.com/JacobLinCool/moodle-rs"
+repository = "https://github.com/JacobLinCool/moodle-rs"
+
+[lib]
+name = "moodle_client"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow = "1.0.75"
+reqwest = { version = "0.11.20", default-features = false, features = ["tokio-rustls", "rustls-tls", "json", "cookies"] }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.107"
+tokio = { version = "1.32.0", features = ["macros", "rt", "rt-multi-thread"] }
+
+[build-dependencies]
+vergen = { version = "8.2.5", features = ["build", "cargo", "git", "gitcl", "rustc", "si"] }

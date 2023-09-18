@@ -1,0 +1,25 @@
+[package]
+name = "moodle"
+description = "Moodle Webservice Client in Rust."
+version = "0.1.0"
+keywords = ["moodle"]
+readme = "README.md"
+license = "AGPL-3.0"
+build = "build.rs"
+edition = "2021"
+homepage = "https://github.com/JacobLinCool/moodle-rs"
+repository = "https://github.com/JacobLinCool/moodle-rs"
+
+[lib]
+name = "moodle"
+path = "src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+moodle_client = { path = "../moodle-client" }
+moodle_api = { path = "../moodle-api" }
+tokio = { version = "1.32.0", features = ["macros", "rt", "rt-multi-thread"] }
+
+[build-dependencies]
+vergen = { version = "8.2.5", features = ["build", "cargo", "git", "gitcl", "rustc", "si"] }

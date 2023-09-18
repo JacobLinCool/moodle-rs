@@ -2,6 +2,11 @@
 
 Moodle Webservice Client in Rust.
 
+## Features
+
+- Parameters and return values are fully typed.
+  - However, due to the version differences of Moodle, sometimes you can use `call_raw` to get the raw `serde_json::Value` and parse it yourself.
+
 ## Example
 
 See [examples](./examples/).

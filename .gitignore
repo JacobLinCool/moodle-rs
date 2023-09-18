@@ -17,7 +17,3 @@ Cargo.lock
 # Added by cargo
 
 /target
-
-scripts/services.php
-scripts/functions.json
-moodle/
